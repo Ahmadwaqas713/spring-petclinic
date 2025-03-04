@@ -49,3 +49,17 @@ out/
 _site/
 *.css
 !petclinic.css
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Ignore Ansible SSH keys
+*.pem
+spring-key
+spring-key.pub
+
+# Ignore build and dependency files
+target/
+*.jar
+*.class
