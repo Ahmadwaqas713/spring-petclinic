@@ -49,3 +49,14 @@ out/
 _site/
 *.css
 !petclinic.css
+*.tfstate
+*.tfstate.backup
+.terraform/
+*.pem
+*.log
+*.out
+*.bak
+*.DS_Store
+*.idea
+*.vscode
+*.env
