@@ -49,3 +49,26 @@ out/
 _site/
 *.css
 !petclinic.css
+# Ignore terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Ignore sensitive files
+*.pem
+
+# Ignore Ansible output and caches
+*.retry
+
+# Ignore IDE/editor folders
+.vscode/
+.idea/
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+terraform.tfvars
+crash.log
+*.pem
+*.key
